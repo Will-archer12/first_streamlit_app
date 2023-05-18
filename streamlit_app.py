@@ -47,7 +47,7 @@ except URLError as e:
 streamlit.header('View Our Fruit List - Add Your Favorites!')
 
 #add_my_fruit = streamlit.text_input('What fruit would you like to add?')
-streamlit.write('thanks for adding ', add_my_fruit)
+#streamlit.write('thanks for adding ', add_my_fruit)
 
 #Add button
 if streamlit.button('Get Fruit List'):
